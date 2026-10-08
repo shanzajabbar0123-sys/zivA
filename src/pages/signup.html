@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ZIVA | Sign Up</title>
+
+    <link rel="shortcut icon" href="../assets/favicon.svg" type="image/svg+xml">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- HEADER -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+
+            <a href="../../index.html"
+               class="text-3xl font-bold tracking-widest text-pink-600">
+                ZIVA
+            </a>
+
+            <ul class="flex flex-wrap justify-center gap-4 md:gap-6 font-medium">
+
+                <li><a href="../../index.html" class="hover:text-pink-600">Home</a></li>
+
+                <li><a href="about.html" class="hover:text-pink-600">About</a></li>
+
+                <li><a href="contact.html" class="hover:text-pink-600">Contact</a></li>
+
+                <li><a href="signin.html" class="hover:text-pink-600">Sign In</a></li>
+
+                <li>
+                    <a href="signup.html"
+                       class="bg-pink-600 text-white px-5 py-2 rounded-full">
+                        Sign Up
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="bg-gradient-to-r from-pink-100 to-purple-100 py-12 text-center">
+
+            <span class="inline-block bg-white px-4 py-2 rounded-full shadow text-pink-600">
+                Join ZIVA
+            </span>
+
+            <h1 class="text-4xl md:text-5xl font-bold mt-5">
+                Create Your <span class="text-pink-600">Account</span>
+            </h1>
+
+            <p class="text-gray-600 mt-4">
+                Become part of the ZIVA fashion community.
+            </p>
+
+        </section>
+
+
+        <!-- SIGNUP FORM -->
+        <section class="max-w-2xl mx-auto px-6 py-16">
+
+            <article class="bg-white p-8 md:p-10 rounded-3xl shadow-xl border">
+
+                <div class="text-center mb-8">
+
+                    <div class="text-5xl mb-4">
+                        💖
+                    </div>
+
+                    <h2 class="text-2xl font-bold">
+                        Create Your Account
+                    </h2>
+
+                    <p class="text-gray-500 mt-2">
+                        Fill in your information below.
+                    </p>
+
+                </div>
+
+
+                <form action="#" method="post" class="space-y-5">
+
+                    <div class="grid md:grid-cols-2 gap-5">
+
+                        <div>
+                            <label for="firstName"
+                                   class="block font-semibold mb-2">
+                                First Name
+                            </label>
+
+                            <input type="text"
+                                   id="firstName"
+                                   name="firstName"
+                                   placeholder="First name"
+                                   required
+                                   class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                        </div>
+
+
+                        <div>
+                            <label for="lastName"
+                                   class="block font-semibold mb-2">
+                                Last Name
+                            </label>
+
+                            <input type="text"
+                                   id="lastName"
+                                   name="lastName"
+                                   placeholder="Last name"
+                                   required
+                                   class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                        </div>
+
+                    </div>
+
+
+                    <div>
+                        <label for="email"
+                               class="block font-semibold mb-2">
+                            Email Address
+                        </label>
+
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="you@example.com"
+                               required
+                               class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                    </div>
+
+
+                    <div>
+                        <label for="phone"
+                               class="block font-semibold mb-2">
+                            Phone Number
+                        </label>
+
+                        <input type="tel"
+                               id="phone"
+                               name="phone"
+                               placeholder="+92 300 1234567"
+                               class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                    </div>
+
+
+                    <div>
+                        <label for="password"
+                               class="block font-semibold mb-2">
+                            Password
+                        </label>
+
+                        <input type="password"
+                               id="password"
+                               name="password"
+                               placeholder="Create a password"
+                               required
+                               class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                    </div>
+
+
+                    <div>
+                        <label for="confirmPassword"
+                               class="block font-semibold mb-2">
+                            Confirm Password
+                        </label>
+
+                        <input type="password"
+                               id="confirmPassword"
+                               name="confirmPassword"
+                               placeholder="Confirm your password"
+                               required
+                               class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                    </div>
+
+
+                    <label class="flex gap-3 items-start text-sm text-gray-600">
+
+                        <input type="checkbox"
+                               required
+                               class="mt-1 accent-pink-600">
+
+                        <span>
+                            I agree to the ZIVA terms and conditions.
+                        </span>
+
+                    </label>
+
+
+                    <button type="submit"
+                            class="w-full bg-pink-600 text-white py-3 rounded-full font-semibold hover:bg-pink-800 hover:scale-105 transition">
+                        Create Account
+                    </button>
+
+                </form>
+
+
+                <div class="text-center mt-7">
+
+                    <p class="text-gray-600">
+                        Already have an account?
+                        <a href="signin.html"
+                           class="text-pink-600 font-semibold hover:underline">
+                            Sign In
+                        </a>
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- BENEFITS -->
+        <section class="max-w-6xl mx-auto px-6 pb-16">
+
+            <div class="grid sm:grid-cols-3 gap-5">
+
+                <article class="bg-white p-6 rounded-2xl shadow border text-center">
+                    <div class="text-3xl">✨</div>
+                    <h3 class="font-bold mt-3">Exclusive Style</h3>
+                    <p class="text-gray-600 text-sm mt-2">
+                        Discover modern fashion.
+                    </p>
+                </article>
+
+
+                <article class="bg-white p-6 rounded-2xl shadow border text-center">
+                    <div class="text-3xl">💎</div>
+                    <h3 class="font-bold mt-3">Quality</h3>
+                    <p class="text-gray-600 text-sm mt-2">
+                        Explore quality-focused designs.
+                    </p>
+                </article>
+
+
+                <article class="bg-white p-6 rounded-2xl shadow border text-center">
+                    <div class="text-3xl">❤️</div>
+                    <h3 class="font-bold mt-3">Be Part of ZIVA</h3>
+                    <p class="text-gray-600 text-sm mt-2">
+                        Join our fashion community.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-950 text-gray-300">
+
+        <div class="max-w-7xl mx-auto px-6 py-10 grid sm:grid-cols-3 gap-8">
+
+            <section>
+                <h3 class="text-2xl font-bold text-white">ZIVA</h3>
+                <p class="mt-3">
+                    Modern fashion for modern personalities.
+                </p>
+            </section>
+
+
+            <section>
+                <h3 class="text-white font-bold mb-3">
+                    Pages
+                </h3>
+
+                <ul class="space-y-2">
+                    <li><a href="../../index.html" class="hover:text-pink-400">Home</a></li>
+                    <li><a href="about.html" class="hover:text-pink-400">About</a></li>
+                    <li><a href="contact.html" class="hover:text-pink-400">Contact</a></li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3 class="text-white font-bold mb-3">
+                    Contact
+                </h3>
+
+                <p>📧 hello@ziva-fashion.com</p>
+            
+            </section>
+
+        </div>
+
+
+        <div class="border-t border-gray-800 text-center py-5">
+            © 2026 ZIVA. All Rights Reserved.
+        </div>
+
+    </footer>
+
+</body>
+</html>
